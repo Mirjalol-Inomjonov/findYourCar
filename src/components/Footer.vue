@@ -51,7 +51,7 @@
         <a href="#"><i class="fab fa-pinterest"></i> pinterest </a>
       </div>
     </div>
-    <div class="credit">create by mr. mirjalol | all rights reserved!</div>
+    <div class="credit">created by mr. mirjalol | all rights reserved!</div>
   </footer>
 </template>
 

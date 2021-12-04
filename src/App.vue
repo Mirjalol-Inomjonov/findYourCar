@@ -63,8 +63,6 @@ export default {
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  
-  
 }
 
 html {
@@ -136,7 +134,7 @@ section {
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 8%, #7979 74%);
   z-index: 99999;
-   filter: blur(8px);
+  filter: blur(8px);
   -webkit-filter: blur(8px);
 
   .lds-spinner {
@@ -221,6 +219,61 @@ section {
   }
 }
 // loader ends
+
+// login and sign-up components
+form {
+  width: 40rem;
+  padding: 2rem;
+  margin: 2px;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  border: var(--border);
+  text-align: center;
+  position: relative;
+
+  h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  .box {
+    margin: 0.7rem 0;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+    font-size: 1.6rem;
+    padding: 1rem 1.2rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+   
+
+    &:focus {
+      border-color: #ffee80;
+      box-shadow: 0 0 8px 3px rgba($color: #ffee80, $alpha: 0.4);
+    }
+  }
+  p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    a {
+      color: var(--yellow);
+      text-decoration: underline;
+    }
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
 
 // ----- media queries -------------------------------------------------------
 

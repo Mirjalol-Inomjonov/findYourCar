@@ -16,6 +16,8 @@
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. A, inventore!
     </p>
+
+    <!-- form part -->
     <form
       action="#"
       class="form"
@@ -62,10 +64,10 @@ export default {
   }
 
   .form {
-    margin: 1rem auto;
-    max-width: 60rem;
-    height: 5rem;
     display: flex;
+    height: 5rem;
+    max-width: 60rem;
+    margin: 1rem auto;
     overflow: hidden;
     border-radius: 5rem;
     box-shadow: var(--box-shadow);
